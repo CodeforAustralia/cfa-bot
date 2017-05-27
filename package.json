@@ -11,6 +11,7 @@
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.2.0",
     "hubot-heroku-keepalive": "^1.0.2",
+    "hubot-mail-listener": ">= 0.0.1",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
     "hubot-redis-brain": "0.0.3",
@@ -18,7 +19,8 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.0",
     "hubot-slack": "^4.3.4",
-    "hubot-mail-listener": ">= 0.0.1"
+    "js-yaml": "3.8.4",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": "7.3.0"
