@@ -4,6 +4,6 @@ module.exports = (robot) ->
     data   = if request.body.payload? then JSON.parse request.body.payload else request.body
     console.log data
 
-    robot.messageRoom room, "Someone responded to 'How Can I get Involved' \n"
+    robot.messageRoom room, ":information_source:*Typeform*\n New response for 'How Can I Get Involved' \n"
 
     response.send 'OK'
